@@ -1,0 +1,6 @@
+version: 0.1.0-beta0.{build}
+before_build:
+- nuget restore src/zim.sln
+build:
+  project: src/zim.sln
+  verbosity: minimal

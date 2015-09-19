@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZimReader", "ZimReader\ZimReader.csproj", "{839AE0E6-BDCF-4265-8725-7615DDA90B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZimReader.Tests", "..\test\ZimReader.Tests\ZimReader.Tests.csproj", "{CDC71328-0B2C-42B2-8532-D0F2E8820588}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BDCC2DDE-9A3C-488F-80F1-FE25EF4BA9A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{29DDD80F-338B-4BFB-8829-43EF09E4F706}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{839AE0E6-BDCF-4265-8725-7615DDA90B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839AE0E6-BDCF-4265-8725-7615DDA90B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839AE0E6-BDCF-4265-8725-7615DDA90B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839AE0E6-BDCF-4265-8725-7615DDA90B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC71328-0B2C-42B2-8532-D0F2E8820588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC71328-0B2C-42B2-8532-D0F2E8820588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC71328-0B2C-42B2-8532-D0F2E8820588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC71328-0B2C-42B2-8532-D0F2E8820588}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{839AE0E6-BDCF-4265-8725-7615DDA90B3C} = {BDCC2DDE-9A3C-488F-80F1-FE25EF4BA9A0}
+		{CDC71328-0B2C-42B2-8532-D0F2E8820588} = {29DDD80F-338B-4BFB-8829-43EF09E4F706}
+	EndGlobalSection
+EndGlobal
